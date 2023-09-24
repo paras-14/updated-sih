@@ -1,0 +1,30 @@
+/*.dashboard{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+   // border: 2px solid black;
+  }*/
+
+
+  
+  .dashboard h2 {
+    margin-top: 0;
+  }
+  
+  .dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dashboard li:last-child {
+    border-bottom: none;
+  }
+  

@@ -1,0 +1,61 @@
+.AssignTeacher {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://images.freecreatives.com/wp-content/uploads/2016/02/Wrinkled-White-Paper-Texture-for-Poster-Background.jpg');
+    background-size: cover;
+  
+    form {
+      margin-bottom: 20px;
+      text-align: center;
+      border: 2px solid #00000003;
+      border-radius: 10px;
+      padding: 20px;
+      background:url('https://images.freecreatives.com/wp-content/uploads/2016/02/Wrinkled-White-Paper-Texture-for-Poster-Background.jpg')
+      div {
+        margin-bottom: 10px;
+      }
+  
+      input {
+        padding: 8px;
+        width: 200px;
+        font-size: 16px;
+      }
+  
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  
+  
+  }
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

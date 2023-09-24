@@ -1,0 +1,35 @@
+.CreateClassroom{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  //  border: 2px solid black;
+  //  background-color: aqua;
+}
+.forrr{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.forr {
+    h1 {
+      margin-bottom: 10px; 
+    }
+    input {
+      width: 90px;
+      height: 50px;
+    }
+  }
+  /* Apply this CSS to the number input field */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
